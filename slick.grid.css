@@ -142,6 +142,7 @@ classes should alter those!
 }
 .slick-cell, .slick-headerrow-column{
   border-bottom-color: silver;
+  margin-top: 0px !important;
 }
 .slick-footerrow-column {
   border-top-color: silver;
