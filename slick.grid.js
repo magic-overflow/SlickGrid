@@ -997,7 +997,8 @@ if (typeof Slick === "undefined") {
     }
 
     function getHeaderRow() {
-      return hasFrozenColumns() ? $headerRow : $headerRow[0];
+      // return hasFrozenColumns() ? $headerRow : $headerRow[0];
+      return $headerRow[0];
     }
 
     function getFooterRow() {
